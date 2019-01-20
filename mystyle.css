@@ -1,0 +1,295 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+  border-right:2px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:grey;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.parallax
+{
+	margin-top:-1%;
+	min-height:700px;
+	background-image:url("bg.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;  
+	opacity:1;
+	box-shadow: 0 0 20px blue;
+}
+#h
+{
+color:white;
+text-shadow: 2px 2px grey;
+text-align:center;
+}
+
+#im{
+	width:100%;
+	margin:0 aut;
+}
+
+
+#edu{
+width: 90%;
+height: auto;;
+margin: 0 auto;
+background-color:white;
+background-repeat: no-repeat;
+background-size: 100% 100% ;
+
+box-shadow: 0 0 20px blue;
+font-family:calbri;
+opacity: 0.8;
+}
+
+#about{
+	text-align:center;
+	width:90%;
+	background-color:white;
+	margin:0 auto;
+	height:auto;
+	box-shadow: 0 0 20px blue;
+	opacity: 0.8;
+	font-family:Forte;
+	text-shadow: 1px 1px gray;
+}
+
+
+#me{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+	font-family:Georgia;
+	font-size:25px;
+}
+#me:hover{
+	color:blue;
+}
+
+#bvoc{
+
+margin:0 auto;
+width:70%;
+height:auto';
+color:black;
+font-family:Comic Sans MS;
+
+}
+
+#secondary{
+
+margin-left:540px;
+width:50%;
+height:25%;
+color:white;
+}
+
+#progress{
+width: 90%;
+  height: 1250px;
+color:white;
+background-repeat: no-repeat;
+background-size: 100% 100% ;
+margin:0 auto;
+box-shadow: 0 0 20px blue;
+
+}
+
+
+#bar{
+width: 85%;
+background-size: 100% 100% ;
+margin:0 auto;
+font-family:Elephant;
+text-shadow: 2px 2px black;
+}
+#column1 {
+background-color:white;
+  float: left;
+  width: 45%;
+  height: auto;
+
+box-shadow: 0 0 20px white;
+}
+#column1:hover{
+background-color:yellow;
+}
+
+#column2 {
+background-color:white;
+  float: right;
+  width: 45%;
+  height: auto
+
+box-shadow: 0 0 20px white;
+}
+#column2:hover{
+	background-color:pink;
+}
+
+#column3 {
+	background-color:white;
+  float: left;
+  width: 45%;
+  height: auto;
+
+box-shadow: 0 0 20px white;
+}
+#column3:hover{
+	background-color:skyblue;
+}
+
+#column4 {
+	background-color:white;
+  float: right;
+  width: 45%;
+  height: auto;
+
+box-shadow: 0 0 20px white;
+}
+#column4:hover{
+	background-color:lightgreen;
+}
+
+
+#row{
+
+width: 90%;
+  height:500px;
+margin: 0 auto;
+box-shadow: 0 0 20px blue;
+}
+#row:hover{
+	
+	opacity:0.9;
+	background-color:#99ccff;
+}
+
+
+#column{
+	width:90%;
+	
+	margin:0 auto;
+	height:auto;
+}
+#project{
+
+width: 90%;
+  height:auto;
+margin: 0 auto;
+box-shadow: 0 0 20px blue;
+}
+#project:hover{
+	background-color:#99ccff;
+	opacity:0.9;
+}
+#pro{
+	width:90%;
+	margin:0 auto;
+	
+	height:auto;
+	
+	font-family:Comic Sans MS;
+}
+#pro1 {
+background-color:white;
+  float: left;
+  width: 45%;
+  height: auto;
+border-radius:50px 50px 50px 50px;
+box-shadow: 0 0 20px white;
+}
+#pro1:hover{
+background-color:#ff8080;
+}
+
+
+#pro2 {
+background-color:white;
+  float: right;
+  width: 45%;
+  height: auto;
+border-radius:50px 50px 50px 50px;
+box-shadow: 0 0 20px white;
+}
+#pro2:hover{
+background-color:#1a90ff;
+}
+
+#pro3 {
+background-color:white;
+  float: left;
+  width: 45%;
+  height: auto;
+border-radius:50px 50px 50px 50px;
+box-shadow: 0 0 20px white;
+}
+#pro3:hover{
+background-color:#99ffcc;
+}
+
+
+#pro4 {
+background-color:white;
+  float: right;
+  width: 45%;
+  height: auto;
+border-radius:50px 50px 50px 50px;
+box-shadow: 0 0 20px white;
+}
+#pro4:hover{
+background-color:#b30059;
+}
+#w
+{
+color:BLACK;
+height:auto;
+width:100%;
+margin:0 auto;
+border-radius:5px;
+
+background-color:white;
+font-family:Elephant;
+}
+#con{
+	font-family:elephant;
+	background-color:black;
+	color:white;
+	width:100%;
+	height:auto;
+	text-align:center;
+	opacity:0.7;
+}
+#social{
+	text-align:center;
+	opacity:0.7;
+	background-color:black;
+}
